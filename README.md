@@ -1,6 +1,6 @@
 # Back to The Dungeon
 
-We share scripts used for "Back to The Dungeon" project.
+It's the first project of **Team UGD**. We've been interested in the development of the game system more than the game itself. So the game quality, especially with regards to assets(e.g. graphics, motions, level design, etc), may be rather low but it's really happy for us to implement most of game systems by our own efforts. We share scripts here used for "Back to The Dungeon" project.
 
 ## Game overview
 
@@ -19,7 +19,7 @@ We share scripts used for "Back to The Dungeon" project.
 
 ### Implemented systems
 
-We've implemented almost systems using only basic libraries provided by C# and Unity. [A* Pathfinding](https://arongranberg.com/astar/) as external library has been only used.
+We've implemented most of game systems using only basic libraries provided by C# and Unity. [A* Pathfinding](https://arongranberg.com/astar/) as external library has been only used.
 
 #### Entity
 
@@ -84,28 +84,23 @@ We implement a lot of interactive game objects like portal, trap, etc.
 
 ### Feedback
 
-개선해야할 점들을 기록함.
-
-* 예외 처리 더 사전에 처리할 필요 있었음.
-* 모듈화를 조금 더 했어야함.
-* 유니티 컴포넌트를 조금 더 활용을 할 필요 있었음.
-* 스킬 시스템이 빈약했음.
-* 인터페이스 너무 부족함.
-* 추상멤버들을 더 많이 정의해 다형성을 적극적으로 활용했어야함.
-* 이벤트를 더 적극적으로 사용할 필요 있었음.
-* 무기 시스템이 빈약했음.
-* 코드 문서화가 덜 됐음.
-* 비동기 프로그래밍 사용을 해봤었으면 좋았을 듯.
-* 인풋 장치 확장이 용이하지 못했음.
-* 코드 관련 패키지들을 미리 고려할 필요가 있었음.
-* 설계를 제대로 할 필요 있었음.
-* 코드 유지 보수가 용이하지 못했음.
-* 함수 기능을 조금 더 세분화할 필요 있었음.
-* 디버그 로그 메세지 형식 통일 필요했었음.
-* 깃 버전 관리를 개판으로 했음.
-* 깃 ignore를 통해 파일 걸러낼 필요 있었음.
-* 디렉토리 관리를 개판으로 함.
-* Scene 내 오브젝트 조직화가 잘 이루어지지 못했음.
+* Should have planned the system thoroughly in advance
+* Poor exception control
+* Lack of modularization 
+* Lack of using unity basic components
+* Poor skill system
+* Lack of polymorphism
+* Lack of interfaces
+* Lack of events
+* Poor weapon system
+* Lack of code documentation
+* Didn't use asynchronous programming with `async` and `await`
+* Should have considered the extension of input devices
+* Poor management of scripts
+* Poor management of log messages
+* Poor management of directories, project structure
+* Bad git version management
+* Poor organization of objects in unity scene
 
 <!-- ## 스크립트 개요  
 
