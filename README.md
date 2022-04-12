@@ -15,7 +15,7 @@ It's the first project of **Team UGD**. We've been interested in the development
 
 > Note: If you wanna use our scripts, you must import external libraries below.
 
-* [A* Pathfinding](https://arongranberg.com/astar/)
+* [A* Pathfinding](https://arongranberg.com/astar/) - version: 4.2.15
 
 ### Implemented systems
 
