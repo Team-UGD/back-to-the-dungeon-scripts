@@ -47,7 +47,7 @@ We've implemented most of game systems using only basic libraries provided by C#
 
 #### Skill
 
-It's only used by enemies.  
+We've implemented a lot of skills. Skill is only used by enemies.  
 
 #### Item
 
@@ -68,7 +68,7 @@ It's only used for the player.
 
 #### Game Object
 
-We implement a lot of interactive game objects like portal, trap, etc.
+We've implemented a lot of interactive game objects like portal, trap, etc.
 
 #### Save System
 
