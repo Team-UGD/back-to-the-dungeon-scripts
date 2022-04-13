@@ -65,7 +65,10 @@ It's only used for the player.
 #### UI
 
 * HUD
-* etc(e.g. Store)
+* Game Start UI
+* Store
+* Setting
+* Game Data
 
 #### Manager
 
