@@ -11,6 +11,10 @@ It's the first project of **Team UGD**. We've been interested in the development
 
 ## Scripts overview
 
+### Environment
+
+* Unity Editor 2020.3.14f1
+
 ### External Library
 
 > Note: If you wanna use our scripts, you must import external libraries below.
