@@ -4,6 +4,8 @@ It's the first project of **Team UGD**. We've been interested in the development
 
 ## Game overview
 
+Download: https://devslem.itch.io/back-to-the-dungeon
+
 ### Game trailer - Youtube
 
 [![Back to The Dungeon Trailer](https://img.youtube.com/vi/hy_my0OQddc/0.jpg)](https://www.youtube.com/watch?v=hy_my0OQddc) 
