@@ -1,6 +1,6 @@
 # Back to The Dungeon
 
-It's the first project of **Team UGD**. We've been interested in the development of the game system more than the game itself. So the game quality, especially with regards to assets(e.g. graphics, motions, level design, etc), may be rather low but it's really happy for us to implement most of game systems by our own efforts. We share scripts here used for "Back to The Dungeon" project.
+It's the first project of **Team UGD**. We've been interested in the development of the game system more than the game itself. So the game quality, especially with regards to assets(e.g. graphics, motions, level design, ui, etc), may be rather low but it's really happy for us to implement most of game systems by our own efforts. We share scripts here used for "Back to The Dungeon" project.
 
 ## Game overview
 
