@@ -1,3 +1,5 @@
+# Written By [`youwonsock`](https://github.com/youwonsock)
+
 ### Enemy
 * #### EnemyMovement
 * #### Entities
