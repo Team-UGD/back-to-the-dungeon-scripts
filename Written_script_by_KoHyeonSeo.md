@@ -34,6 +34,8 @@
 
 ### UI
 
+### Utility
+
 ### Weapon
 * #### BossSkillWeapon
 * #### MonsterWeapon
