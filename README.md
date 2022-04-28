@@ -40,18 +40,19 @@ We've used **C#** and **Unity** game engine.
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Unity_Technologies_logo.svg/1280px-Unity_Technologies_logo.svg.png" height="40">
 </p>
 
-### Period
+### Periods
 
 * 2021-08 ~ 2022-04 (about 9 months) - main development and build for the pc version
 * 2022-04 ~ now - build for the mobile version
 
 ## Scripts overview
 
-### Environment
+### Environments
 
+* C# 7.2
 * Unity Editor 2020.3.14f1
 
-### External Library
+### External Libraries
 
 > Note that library files are not included in this project.
 
