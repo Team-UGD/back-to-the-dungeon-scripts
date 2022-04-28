@@ -4,7 +4,7 @@ It's the first project of **Team UGD**. We've been interested in the development
 
 ### Portfolios
 
-* [kgmslem](https://github.com/kgmslem/back-to-the-dungeon-scripts/blob/main/Portfolios/portfolio-kgmslem.md)
+* [kgmslem](Portfolios/portfolio-kgmslem.md)
 
 ## Game overview
 
