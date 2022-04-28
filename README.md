@@ -50,6 +50,7 @@ We've used **C#** and **Unity** game engine.
 ### Environments
 
 * C# 7.2
+* .Net Standard 2.0
 * Unity Editor 2020.3.14f1
 
 ### External Libraries
