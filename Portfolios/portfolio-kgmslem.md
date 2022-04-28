@@ -2,7 +2,7 @@
 
 I introduce our game development project. It's the first project for me when i was a college student. I'm really happy to develop this game by my own effort. In this project, we've tried to use possibly less external libraries. We've developed a lot of game systems to improve skills dramatically. It's been a nice experience.
 
-### Author
+### Developer
 
 * Name: kgmslem
 * Github: https://github.com/kgmslem
@@ -45,3 +45,7 @@ We've used **C#** and **Unity** game engine.
 
 * 2021-08 ~ 2022-04 (about 9 months) - main development and build for the pc version
 * 2022-04 ~ now - build for the mobile version
+
+## Contribution
+
+**TODO**: 내용 곧 넣을 예정
