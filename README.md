@@ -23,7 +23,7 @@ Download: https://devslem.itch.io/back-to-the-dungeon
 
 ### External Library
 
-> Note: If you wanna use our scripts, you must import external libraries below.
+> Note that library files are not included in this project.
 
 * [A* Pathfinding](https://arongranberg.com/astar/) - version: 4.2.15
 
