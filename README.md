@@ -4,16 +4,46 @@ It's the first project of **Team UGD**. We've been interested in the development
 
 ### Portfolios
 
+If you're interested in individual portfolios, click the below links.
+
 * [kgmslem](Portfolios/portfolio-kgmslem.md)
 
-## Game overview
-
-Download: https://devslem.itch.io/back-to-the-dungeon
+## Game
 
 ### Game trailer - Youtube
 
 [![Back to The Dungeon Trailer](https://img.youtube.com/vi/hy_my0OQddc/0.jpg)](https://www.youtube.com/watch?v=hy_my0OQddc) 
 
+### Downloads
+
+* [itch.io](https://devslem.itch.io/back-to-the-dungeon)
+
+### Genres
+
+2D platformer shooting
+
+### Platforms
+
+<p>
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Windows_logo_-_2012.png" height="30">
+<!--<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Android_logo_2019_%28stacked%29.svg/640px-Android_logo_2019_%28stacked%29.svg.png" width="40">-->
+</p>
+
+## Project
+
+### Development kits
+
+We've used **C#** and **Unity** game engine.
+
+<p>
+<img src="https://w.namu.la/s/a5c8b52bd00f38f3430dd7540867240527fd91e023abc9ff5afc7612faaf0ff3d089ebc7d17fd742323e15a32383753a3777de02ec664a6e15b0e92847220dc47f2be0a379d83dfb0a437a75ee6b2f63e63bbc1106ffb05877c5ccac54f45b22" height="40">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Unity_Technologies_logo.svg/1280px-Unity_Technologies_logo.svg.png" height="40">
+</p>
+
+### Period
+
+* 2021-08 ~ 2022-04 (about 9 months) - main development and build for the pc version
+* 2022-04 ~ now - build for the mobile version
 
 ## Scripts overview
 
