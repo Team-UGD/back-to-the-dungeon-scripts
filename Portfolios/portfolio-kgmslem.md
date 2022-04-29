@@ -19,6 +19,14 @@ Time it took to make
 
 ## Game
 
+### Game trailer - Youtube
+
+[![Back to The Dungeon Trailer](https://img.youtube.com/vi/hy_my0OQddc/0.jpg)](https://www.youtube.com/watch?v=hy_my0OQddc) 
+
+### Downloads
+
+* [itch.io](https://devslem.itch.io/back-to-the-dungeon)
+
 ### Genres
 
 2D platformer shooting
@@ -49,3 +57,21 @@ We've used **C#** and **Unity** game engine.
 ## Contribution
 
 **TODO**: 내용 곧 넣을 예정
+
+### Health and damage system
+
+### Player weapon(guns) control
+
+### Pathfinding movement
+
+### Skill attack system
+
+### Game manager
+
+### Save system
+
+### Game objects
+
+### Store
+
+### Utility
