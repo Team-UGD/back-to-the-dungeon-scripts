@@ -50,7 +50,7 @@ We've used **C#** and **Unity** game engine.
 - The enemy can detect player, cliffs, and walls.
 - Even if the enemy detect the player, you do not chase if there is a wall in between. 
 - Also, the enemy does not give up chasing for a certain period of time, even if the player hides behind the wall.
- > <img src="https://user-images.githubusercontent.com/76097749/166153208-4310c38c-05a1-4f56-acbe-922bd8a4b2fc.gif  width="200" height="400"/>
+ > <img src="https://user-images.githubusercontent.com/76097749/166153208-4310c38c-05a1-4f56-acbe-922bd8a4b2fc.gif  width="200" height="400"/><br>
  > ![EnemyDetection_PlayerDetection](https://user-images.githubusercontent.com/76097749/166153214-cab7e055-1244-4baf-8149-b3c2458b4b1c.gif)
 
 <b><h3>Movement</h3><b>
