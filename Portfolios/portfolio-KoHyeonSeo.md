@@ -50,7 +50,7 @@ We've used **C#** and **Unity** game engine.
 - The enemy can detect player, cliffs, and walls.
 - Even if the enemy detect the player, you do not chase if there is a wall in between. 
 - Also, the enemy does not give up chasing for a certain period of time, even if the player hides behind the wall.
- > <img src="https://user-images.githubusercontent.com/76097749/166153208-4310c38c-05a1-4f56-acbe-922bd8a4b2fc.gif  width="200" height="400"/><br>
+ > ![EnemyDetection_detect the cliffs](https://user-images.githubusercontent.com/76097749/166153565-8c466644-9ae3-4ffc-9b0b-99710e6e94a3.gif)
  > ![EnemyDetection_PlayerDetection](https://user-images.githubusercontent.com/76097749/166153214-cab7e055-1244-4baf-8149-b3c2458b4b1c.gif)
 
 <b><h3>Movement</h3><b>
@@ -66,19 +66,19 @@ We've used **C#** and **Unity** game engine.
 
 <b><h3>Trap</h3><b>
 - Falling Platform
-  >> ![Trap_FallingGround](https://user-images.githubusercontent.com/76097749/166153251-ab4d2b63-a9ce-4168-b7c4-a949bfb5e080.gif)
+  > ![Trap_FallingGround](https://user-images.githubusercontent.com/76097749/166153251-ab4d2b63-a9ce-4168-b7c4-a949bfb5e080.gif)
 
 - Passable Platform
-  >> ![passableTile](https://user-images.githubusercontent.com/76097749/166153258-2595f988-42cf-4a49-acc1-0cdcc6e2d98f.gif)
+  > ![passableTile](https://user-images.githubusercontent.com/76097749/166153258-2595f988-42cf-4a49-acc1-0cdcc6e2d98f.gif)
 
 - Moving Ground Trap
-  >> ![Moving Ground](https://user-images.githubusercontent.com/76097749/166153262-a2b9f137-4aae-42f5-a638-86029fa358ec.gif)
+  > ![Moving Ground](https://user-images.githubusercontent.com/76097749/166153262-a2b9f137-4aae-42f5-a638-86029fa358ec.gif)
 
 - NonLinear Movable Spike
-  >> ![Trap_NonLinearMovableSpike](https://user-images.githubusercontent.com/76097749/166153265-7bfa13f7-5203-4dde-93b7-1b6b1a2be206.gif)
+  > ![Trap_NonLinearMovableSpike](https://user-images.githubusercontent.com/76097749/166153265-7bfa13f7-5203-4dde-93b7-1b6b1a2be206.gif)
 
 - Linear Movable Spike
-  >> ![Linear](https://user-images.githubusercontent.com/76097749/166153273-718b9402-2db0-499a-9c51-f793f4b05836.gif)
+  > ![Linear](https://user-images.githubusercontent.com/76097749/166153273-718b9402-2db0-499a-9c51-f793f4b05836.gif)
 
 <b><h3>Utility</h3><b>
 - I studied the movement of soft objects.
@@ -87,20 +87,20 @@ We've used **C#** and **Unity** game engine.
   
 <b><h3>Enemy Skill</h3><b>
 - Big Ball Skill of Wizard
-  >> ![BigBallSkill](https://user-images.githubusercontent.com/76097749/166153277-43241b92-afdc-44e0-a548-1768d33c7f73.gif)
+  > ![BigBallSkill](https://user-images.githubusercontent.com/76097749/166153277-43241b92-afdc-44e0-a548-1768d33c7f73.gif)
 
 - Bounce Ball Skill of Boss
-  >> ![BounceBall](https://user-images.githubusercontent.com/76097749/166153280-db5c04b8-23ec-49ba-bd83-60f6dfa58776.gif)
+  > ![BounceBall](https://user-images.githubusercontent.com/76097749/166153280-db5c04b8-23ec-49ba-bd83-60f6dfa58776.gif)
 
 - Sickle Grab Skill of Boss
-  >> ![SickleGrab](https://user-images.githubusercontent.com/76097749/166153282-09248cf3-d5a7-486f-a8cd-cac9819b0d19.gif)
+  > ![SickleGrab](https://user-images.githubusercontent.com/76097749/166153282-09248cf3-d5a7-486f-a8cd-cac9819b0d19.gif)
 
 - Smash Skill of Boss
-  >> ![BossSmash](https://user-images.githubusercontent.com/76097749/166153286-e15ffb6a-2a1b-44db-a344-54a79344a35d.gif)
+  > ![BossSmash](https://user-images.githubusercontent.com/76097749/166153286-e15ffb6a-2a1b-44db-a344-54a79344a35d.gif)
   
 <b><h3>UI</h3><b>
 - Ending Credit
-  >> ![Ending](https://user-images.githubusercontent.com/76097749/166153297-2ee1fb99-3c94-4523-87d7-9cb61f18b4bc.gif)
+  > ![Ending](https://user-images.githubusercontent.com/76097749/166153297-2ee1fb99-3c94-4523-87d7-9cb61f18b4bc.gif)
   
 - LevelSetting
   > I used "dispose pattern" to manage the data, and I used "using" to call the data in a temporary space and delete it automatically.
