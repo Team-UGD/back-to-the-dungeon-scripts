@@ -61,7 +61,7 @@ We've used **C#** and **Unity** game engine.
 - EnemyMovement
   > - I used the FSM.
   > - I built the basic movement of the flying enemy, the basic movement of the walking enemy, and the chasing movement of the enemy.
-  > ![BasicMovement](https://user-images.githubusercontent.com/76097749/166153230-8ac301f6-f8ce-49ae-955b-ec5680e276ab.gif)
+  >> ![BasicMovement](https://user-images.githubusercontent.com/76097749/166153230-8ac301f6-f8ce-49ae-955b-ec5680e276ab.gif)
 
 
 <b><h3>Trap</h3><b>
