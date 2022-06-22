@@ -4,8 +4,8 @@ I introduce our game development project. It's the first project for me when i w
 
 ### Developer
 
-* Name: kgmslem
-* Github: https://github.com/kgmslem
+* Name: DevSlem
+* Github: https://github.com/DevSlem
 * Mail: devslem12@gmail.com
 
 <!--
