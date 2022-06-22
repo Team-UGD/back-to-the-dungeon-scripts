@@ -6,7 +6,7 @@ It's the first project of **Team UGD**. We've been interested in the development
 
 If you're interested in individual portfolios, click the below links.
 
-* [kgmslem](Portfolios/portfolio-kgmslem.md)
+* [DevSlem](Portfolios/portfolio-DevSlem.md)
 
 ## Game
 
