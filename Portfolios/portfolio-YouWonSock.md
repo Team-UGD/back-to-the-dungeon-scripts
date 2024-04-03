@@ -47,27 +47,32 @@ We've used **C#** and **Unity** game engine.
 ### Contribution
 
 ### Enemy
-* #### EnemyMovement
-  * DashState.cs - class
 * #### Entities
-  * Astronaut.cs - class
-    > 자폭 몬스터로 플레이어 발견 시 빠른 속도로 접근하며 
-      EnemyDetection에서 Target을 감지하고 있는경우 사망 시 그 자리에 폭탄을 생성합니다.
-      감지한 Target이 없으면 폭탄을 생성하지 않습니다.
+  * Astronaut
+    ![is](https://github.com/youwonsock/back-to-the-dungeon-scripts/assets/46276141/af955e55-ad8b-49af-8d2a-b58260acd575)
+    자폭 몬스터로 플레이어 발견 시 빠른 속도로 접근합니다.  
+    EnemyDetection에서 Target을 감지하고 있는경우 사망 시 그 자리에 폭탄을 생성하며,  
+    감지한 Target이 없는 경우 폭탄을 생성하지 않습니다.
       
-  * Beez.cs - class
-    > 비행 몬스터로 크기가 작으며 낮은 체력을 가지고 있습니다.
-      짧은 사거리를 가지고 있습니다.
-  * Squirrel.cs - class
-    > 돌진 스킬을 사용하는 몬스터입니다. 
-      돌진 패턴만을 가지고 있으며 높은 데미지를 줍니다.
-      인스팩터에서 bool값을 이용하여 돌진 시 낭떠러지에서 떨어질지 
-      반대로 돌진할지 설정해줄 수 있습니다.
+  * Beez
+    ![bee](https://github.com/youwonsock/back-to-the-dungeon-scripts/assets/46276141/6681e588-0dc5-4f4e-a7e6-c83a2db97445)
+    비행 몬스터로 크기가 작으며 낮은 체력을 가지고 있습니다.  
+    기본 원거리 공격과 SpreadSkill을 사용합니다.
+    
+  * Squirrel
+    ![다람이](https://github.com/youwonsock/back-to-the-dungeon-scripts/assets/46276141/f1ac8c76-9fa4-4217-ae65-296959d63bb6)
+    돌진 스킬을 사용하는 몬스터입니다.  
+    돌진 패턴만을 가지고 있으며 높은 데미지를 줍니다.  
+    인스팩터에서 bool값을 이용하여 돌진 시 낭떠러지에서 떨어질지 반대로 돌진할지 설정해줄 수 있습니다.
+    
 * #### ETC
-  * EnemyHealthBar.cs - class
-    > 일반 몬스터들의 체력을 표시해주는 HealthBar에 추가되는 컴포넌트로 
-      부모 오브젝트의 스케일값이 바뀌더라도 방향을 유지하기 위해 
-      Update에서 스케일값을 조정해줍니다. 
+  * Enemy Health Bar
+    ![Spread](https://github.com/youwonsock/back-to-the-dungeon-scripts/assets/46276141/d6353317-ddb8-4127-be28-91e6eeaca546)
+    일반 몬스터들의 체력을 표시해주는 HealthBar입니다.
+
+  * Boss Health Bar
+    ![BossHealth-min](https://github.com/youwonsock/back-to-the-dungeon-scripts/assets/46276141/5b955525-8ff5-433c-bb73-37ad0605d0b6)
+    특수 몬스터의 체력을 표시해주는 HealthBar입니다.
 
 ### Enemy Skills
 * #### Projectile Skill
