@@ -14,7 +14,7 @@
 
 * [itch.io](https://devslem.itch.io/back-to-the-dungeon)
 
-<b><h2>Genres</h2></b>
+### Genres
 
 2D platformer shooting
 
@@ -24,12 +24,9 @@
 <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Windows_logo_-_2012.png" height="30">
 </p>
 
-<b><h2>Development kits</h2></b>
-
-We've used **C#** and **Unity** game engine.
+### Development kits
 
 <p>
-<img src="https://w.namu.la/s/a5c8b52bd00f38f3430dd7540867240527fd91e023abc9ff5afc7612faaf0ff3d089ebc7d17fd742323e15a32383753a3777de02ec664a6e15b0e92847220dc47f2be0a379d83dfb0a437a75ee6b2f63e63bbc1106ffb05877c5ccac54f45b22" height="40">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Unity_Technologies_logo.svg/1280px-Unity_Technologies_logo.svg.png" height="40">
 </p>
 
@@ -49,17 +46,23 @@ We've used **C#** and **Unity** game engine.
 ### Enemy
 * #### Entities
   * Astronaut
+    * SelfExplosion
+    * Bomb
+      
     ![is](https://github.com/youwonsock/back-to-the-dungeon-scripts/assets/46276141/af955e55-ad8b-49af-8d2a-b58260acd575)
     자폭 몬스터로 플레이어 발견 시 빠른 속도로 접근합니다.  
     EnemyDetection에서 Target을 감지하고 있는경우 사망 시 그 자리에 폭탄을 생성하며,  
     감지한 Target이 없는 경우 폭탄을 생성하지 않습니다.
       
   * Beez
+    * SpreadSkill  
+      
     ![bee](https://github.com/youwonsock/back-to-the-dungeon-scripts/assets/46276141/6681e588-0dc5-4f4e-a7e6-c83a2db97445)
     비행 몬스터로 크기가 작으며 낮은 체력을 가지고 있습니다.  
     기본 원거리 공격과 SpreadSkill을 사용합니다.
     
   * Squirrel
+    * DashSkill.cs - class
     ![다람이](https://github.com/youwonsock/back-to-the-dungeon-scripts/assets/46276141/f1ac8c76-9fa4-4217-ae65-296959d63bb6)
     돌진 스킬을 사용하는 몬스터입니다.  
     돌진 패턴만을 가지고 있으며 높은 데미지를 줍니다.  
@@ -75,86 +78,88 @@ We've used **C#** and **Unity** game engine.
     특수 몬스터의 체력을 표시해주는 HealthBar입니다.
 
 ### Enemy Skills
-* #### Projectile Skill
-  * SpreadSkill.cs - class
-    > 범위 공격으로 몬스터의 현재 위치를 기준으로 8방향을 공격합니다.
-      기본 공격과 같은 방식으로 동작하지만, 미리 정의해둔 방향으로 8번 반복합니다.
 * #### Boss Skill
   * BossSpreadSkill.cs - class
-    > SpreadSkill의 강화형으로 상하좌우 4방향으로 발사하면서 회전합니다.
-      반복문을 통해 탄환을 발사하면서 발사하는 방향을 바꿔주어 회전시킵니다. 
-* #### Melee Skill
-  * Bomb.cs - class
-    > 자폭 몬스터가 사망 시 생성되는 폭탄으로 지정한 시간 뒤 Destory되며
-     SelfExplosion Prefab을 생성하는 방식으로 구현하였습니다. 
-  * DashSkill.cs - class
-    > 돌진 몬스터가 사용하는 돌진 스킬로 스킬 사용 시점에 플레이어가 있는 방향으로 돌진합니다.
-      TriggerSkill의 매개변수로 전달된 정보를 이용하여 플레이어가 있는 위치를 얻습니다.
-  * SelfExplosion.cs - class
-    > 자폭 몬스터가 플레이어에게 닿았을 경우와 폭탄 폭발 시 생성되는 SelfExplosion Prefab을
-      생성하기 위한 컴포넌트입니다.
-     
+    ![Spread](https://github.com/youwonsock/back-to-the-dungeon-scripts/assets/46276141/2a434c60-2f95-43e2-851b-e1009d5b7356)
+    SpreadSkill의 강화형으로 4방향으로 발사하면서 회전합니다.
+    
 ### Item
 * #### Field Item
-  * Coin.cs - class
-    > GamaManager에서 관리 중인 인게임 재화 Gold를 지정해둔 값만큼 증가시킵니다.
-  * HealPotion.cs - class
-    > Hero.cs에서 관리 중인 Health을 증가시킵니다. 
-  * Invincible.cs - class
-    > 무적 아이템으로 획득 시 player의 layer를 변경해줍니다. 
+  * Coin
+    ![coin](https://github.com/youwonsock/back-to-the-dungeon-scripts/assets/46276141/35c17f3a-fcda-4e80-8e3e-43a7439da265)  
+    
+  * HealPotion
+    ![potion](https://github.com/youwonsock/back-to-the-dungeon-scripts/assets/46276141/5b80709d-9164-4440-92e2-0311a757bf1a)  
+    
+  * Invincible
+    ![invin](https://github.com/youwonsock/back-to-the-dungeon-scripts/assets/46276141/5db34b85-9067-47ca-9979-d1d431f310ef)  
+    
 * #### Store Item
-  * IncreaseMaxHealth.cs - class
-    > 구매 시 Hero.cs에서 관리 중인 MaxHealth를 증가시킵니다.
-  * IncreaseStamina.cs - class
-    > 구매 시 Hero.cs에서 관리 중인 MaxStamina를 증가시킵니다.
-  * Resurrection.cs - class
-    > 구매 시 Hero.cs에서 관리 중인 Resurrection Chance를 True로 바꾸어 1회 부활이 가능합니다.
-* #### ETC
-  * Item.cs - abstract class
-    > 모든 아이템의 추상 클래스로 아이템 획득 시 실행되는 추상 메서드 GetItem()과
-      OnCollisionEnter2D가 정의되어있습니다.
+  * IncreaseMaxHealth
+    ![max health](https://github.com/youwonsock/back-to-the-dungeon-scripts/assets/46276141/0af8e66f-14c3-43fc-828e-a7271f78e617)  
+
+  * IncreaseStamina
+    ![max Ste](https://github.com/youwonsock/back-to-the-dungeon-scripts/assets/46276141/38aae36f-9eaf-47f4-8370-1f9b42ce6641)  
+
+  * Resurrection
+    ![re](https://github.com/youwonsock/back-to-the-dungeon-scripts/assets/46276141/ef0f4ed8-3001-4e64-a24b-84ae5f0bf6a7)
+
 ### Manager
 * ETC
-  * ItemManager.cs - class
-    > 아이템 생성을 위한 클래스로 Stage내에 존재하는 몬스터들의 OnDeath 이벤트에 
-      확률에 따라 아이템을 생성하는 메서드 OnEnemyDeath를 등록합니다. 
-  * UIManager.cs : Singleton - class
-    > UI를 관리하는 Singleton오브젝트로 PlayerUI, GameObjectUI, PauseUI등의 Ui처리를 위한 
-      메서드, 자료구조등을 관리하는 메서드입니다. 
+  * ItemManager
+    아이템 생성을 위한 클래스로 Stage내에 존재하는 몬스터들의 OnDeath 이벤트에  
+    확률에 따라 아이템을 생성하는 메서드 OnEnemyDeath를 등록합니다. 
+    
+  * UIManager
+    UI를 관리하는 Singleton오브젝트로 PlayerUI, GameObjectUI, PauseUI등의 Ui처리를 위한 매니저입니다.
+    
+  * SaveManager
+    세이브 데이터 관리
 
 ### Other Objects
-* #### Interation Objects
-  * Door.cs - class
-  * Switch.cs - class
-* #### Portal
-  * AlwaysUseablePortal.cs - class
+* #### Interation Objects  
+  * Door and Switch  
+  ![door](https://github.com/youwonsock/back-to-the-dungeon-scripts/assets/46276141/9ceaff02-a56d-43d0-9d1c-c5c56e06ee61)
+  
 * #### Trap
-  * BossEventTrigger.cs - class
-  * MoveToCustomPoint.cs - class
+  * BossEventTrigger
+    ![bosseven](https://github.com/youwonsock/back-to-the-dungeon-scripts/assets/46276141/883a19e0-751d-4b48-bad4-83449798741d)  
 
 ### Player
-  * Hero.cs - class
-
-### Save System
-  * SaveManager.cs - class
-
+  * 체력 및 사망처리
+    
 ### UI
-  * QuitButton.cs - class
-  * SettingButton.cs - class
+  * QuitButton
+  * SettingButton
+  ![ui](https://github.com/youwonsock/back-to-the-dungeon-scripts/assets/46276141/496ab77b-bb31-4883-92ba-72469a7a71b8)
 
 ### Weapon
 * #### PlayerWeapon
-  * AssaultRifle.cs - class
-  * AutoShutGun.cs - class
-  * AWP.cs - class
-  * BurstRifle.cs - class
-  * Cannon.cs - class
-  * Minigun.cs - class
-  * Pistol.cs - class
-  * PubpShotGun.cs - class
-  * Smg.cs - class
-* #### ETC
-  * Bullet.cs - class
-  * Explosion.cs - class
-  * ExplosionBullet.cs - class
-  * Weapon.cs - abstract class 
+  * Weapon
+    * AssaultRifle
+      ![ak](https://github.com/youwonsock/back-to-the-dungeon-scripts/assets/46276141/6a0058a7-3b47-44e7-879f-2df2810fc0c5)
+  
+    * AutoShutGun
+      ![autoshot](https://github.com/youwonsock/back-to-the-dungeon-scripts/assets/46276141/96a8bb8f-9965-4c94-a336-df6dc9271d83)
+  
+    * AWP
+      ![awp](https://github.com/youwonsock/back-to-the-dungeon-scripts/assets/46276141/c04c358e-68c8-409f-8a91-cd7ed655fcd8)
+  
+    * BurstRifle
+      ![m16](https://github.com/youwonsock/back-to-the-dungeon-scripts/assets/46276141/1dcd52a1-3564-48a3-b75e-71318532b2db)
+  
+    * Cannon
+      ![cannon](https://github.com/youwonsock/back-to-the-dungeon-scripts/assets/46276141/010f417c-de69-4069-b4e7-7f4422dbd1ae)
+  
+    * Minigun
+      ![minigun](https://github.com/youwonsock/back-to-the-dungeon-scripts/assets/46276141/d6524d28-41b7-450d-8fdb-8705eb08fdba)
+  
+    * Pistol
+      ![HandGun](https://github.com/youwonsock/back-to-the-dungeon-scripts/assets/46276141/deb734f9-4563-4fb0-b966-5982ec287998)
+  
+    * ShotGun
+      ![shotgun](https://github.com/youwonsock/back-to-the-dungeon-scripts/assets/46276141/4f7bb0ca-a397-4b84-9ac7-686b069c0f6b)
+  
+    * Smg
+      ![smg](https://github.com/youwonsock/back-to-the-dungeon-scripts/assets/46276141/8c0f99a0-b5e5-4811-804b-df52adc9665d)  
+
